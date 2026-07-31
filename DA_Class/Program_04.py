@@ -1,4 +1,4 @@
-string1 = "ayush is the number one coder in the world, and also one more thing is that he can solve almost every problem in the world"
+string1 = "ayush is the number {0} coder in the world, {1} {2}and also one more thing is that he can solve almost every problem in the world"
 string2 = string1.replace("Ayush", "Rahul")
 print(string2)
 
@@ -28,3 +28,11 @@ print(word.casefold())
 
 string9 = string1.endswith("d")
 print(string9)
+
+string10 = string1.find("ayush")
+print(string10)
+
+# this format replaces the {} (parenthesis from the value or parameter being provided by the user)
+string11 = string1.format("one", "How are your", "What are you doing")
+print(string11)
+
