@@ -1,4 +1,4 @@
-string1 = "ayush is the number {0} coder in the world, {1} {2}and also one more thing is that he can solve almost every problem in the world"
+string1 = "ayush is the \t number {0} coder in the world, {1} {2}and also one more thing is that he can solve almost every problem in the world"
 string2 = string1.replace("Ayush", "Rahul")
 print(string2)
 
@@ -35,4 +35,9 @@ print(string10)
 # this format replaces the {} (parenthesis from the value or parameter being provided by the user)
 string11 = string1.format("one", "How are your", "What are you doing")
 print(string11)
+
+
+# We use this exapandtabs to give the tab spacing in the string whereever the \t is found in the string
+string12 = string1.expandtabs()
+print(string12)
 
