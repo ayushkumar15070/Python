@@ -45,3 +45,6 @@ string13 = string1.encode()
 print(string13)
 print(type(string13))
 
+string14 = string1.format_map()
+print(string14)
+
