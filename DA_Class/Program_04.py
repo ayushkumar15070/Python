@@ -18,8 +18,8 @@ print(string6)
 string7 = string1.count("i")
 print(string7)
 
-string8 = string1.encode()
-print(string8)
+# string8 = string1.encode()
+# print(string8)
 
 word = "Straße"
 
@@ -40,4 +40,8 @@ print(string11)
 # We use this exapandtabs to give the tab spacing in the string whereever the \t is found in the string
 string12 = string1.expandtabs()
 print(string12)
+
+string13 = string1.encode()
+print(string13)
+print(type(string13))
 
