@@ -12,9 +12,6 @@ def encode(message):
 
     return f"{string_of_A}A{string_of_B}B{string_of_C}C"
 
-
-
-
 #Provide different values for message and test your program
 encoded_message=encode("ABBBBCCCCCCCCAB")
 print(encoded_message)
