@@ -17,3 +17,15 @@ try:
         f.close()
 except:
     print("Something went wrong while opening the trail.txt file")
+
+
+# x = -1
+
+# if x < 0:
+#   raise Exception("There is an error")
+
+
+x = input("Enter the value: ")
+
+if type(x) is not int:
+    raise TypeError("The input should be integer for any numeric operation")
