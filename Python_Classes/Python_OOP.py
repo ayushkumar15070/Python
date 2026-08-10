@@ -7,7 +7,7 @@
 # 4. Allows you to build reusable applications with less code
 
 
-# example of OOPs in Python
+# examples of OOPs in Python
 
 class Myclass:
     x = 5
@@ -25,3 +25,21 @@ print(p2.y)
 print(p2.z)
 
 print(p2.x * p2.y * p2.z)
+
+
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def greet(self):
+        print(f"Hello {self.name}, How are you?")
+        print(f"You will be a billionaire by the age of {age + 5 if age == 20 else age + 4}")
+
+
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+p1 = Person(name, age)
+
+p1.greet()
