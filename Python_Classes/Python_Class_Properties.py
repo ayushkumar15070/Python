@@ -25,3 +25,16 @@ print(p1.name)
 print(p2.name)
 print(p1.species)
 print(p2.species)
+
+class person2:
+    lastname = ""
+
+    def __init__(self, name):
+        self.name = name
+
+
+person2.lastname = "Vishwakarma"
+p1 = person2("Ayush")
+p2 = person2("Ayush")
+print(p1.name + " " + person2.lastname)
+print(p2.name)
