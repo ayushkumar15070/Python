@@ -49,7 +49,7 @@ class Playlist:
         print(f"Added-{song}")
 
     def remove_song(self, song):
-        if song in self.song:
+        if song in self.songs:
             self.songs.remove(song)
             print(f"removed-{song}")
 
@@ -74,3 +74,8 @@ while True:
         break
 
 myplaylist.show_song()
+
+myplaylist.remove_song("Bafikre")
+print("Removed Bafikre")
+myplaylist.show_song()
+
