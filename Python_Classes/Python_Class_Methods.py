@@ -38,3 +38,39 @@ class person:
 
 p1 = person("Ayush", 20)
 print(p1)
+
+class Playlist:
+    def __init__(self, name):
+        self.name = name
+        self.songs = []
+
+    def add_song(self, song):
+        self.songs.append(song)
+        print(f"Added-{song}")
+
+    def remove_song(self, song):
+        if song in self.song:
+            self.songs.remove(song)
+            print(f"removed-{song}")
+
+    def show_song(self):
+        print(f"Playlist - {self.name}")
+        for i in self.songs:
+            print(f"- {i}")
+
+
+playlist_name = input("Enter your playlist name: ")
+
+myplaylist = Playlist(playlist_name)
+
+while True:
+    addsong = input("Want to add songs: ")        
+    if addsong.lower() == "yes":
+        howmany = int(input("How many songs you want to add: "))
+        for i in range(0, howmany):
+            entersong = input("Enter your song name: ")
+            myplaylist.add_song(entersong)
+    else:
+        break
+
+myplaylist.show_song()
