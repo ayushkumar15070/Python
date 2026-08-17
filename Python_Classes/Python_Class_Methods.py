@@ -75,7 +75,14 @@ while True:
 
 myplaylist.show_song()
 
-myplaylist.remove_song("Bafikre")
-print("Removed Bafikre")
+removesong = input("Want to remove songs: ")
+if removesong.lower() == "yes":
+    howmnay = int(input("How many songs you want to remove: "))
+    for i in range(0, howmany):
+        songwhichyouwanttoremove = input("Enter the song name which you want to remove: ")
+        if songwhichyouwanttoremove in myplaylist.songs:
+            myplaylist.remove_song(songwhichyouwanttoremove)
+
+
 myplaylist.show_song()
 
