@@ -161,3 +161,62 @@ print(x)
 
 
 
+#Question_01
+
+# Balance team score
+# you are given tuple containing scores
+# (12, 18, 7, 25, 18, 10, 7, 30, 15)
+# 1. create highscores (>=18)
+# 2. create lowscore (<18)
+# disply both lists
+# display the difference between their sums 
+
+# challenge do not use sum()
+
+
+scores = (12, 18, 7, 25, 18, 10, 7, 30, 15)
+
+highscores = []
+lowscores = []
+
+for i in scores:
+    if i >= 18:
+        highscores.append(i)
+    elif i < 18:
+        lowscores.append(i)
+
+print(highscores)
+print(lowscores)
+
+sum = 0 
+for i in highscores:
+    sum = sum + i
+
+sum2 = 0 
+for i in lowscores:
+    sum2 = sum2 + i
+
+
+print(sum)
+print(sum2)
+
+print(f"The difference between {sum} and {sum2} is {sum - sum2}")
+
+
+
+#Duplicate-Free Transaction IDs
+# given:
+# [101, 103, 101, 105, 107, 103, 109, 105, 110]
+# create a new list containing only the first occurence of each transaction ID
+
+# challenge: Do not use set()
+
+IDs = [101, 103, 101, 105, 107, 103, 109, 105, 110]
+list1 = []
+for i in IDs:
+    if i in list1:
+        pass
+    else:
+        list1.append(i)
+
+print(list1)
