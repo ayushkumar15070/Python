@@ -100,3 +100,27 @@ set13.update([2, 3, 4, 5, 5, 34])
 print(set13)
 
 
+set15 = {"BMW", "Volvo", "Mercedes", "Ducatti", "Buggati", "Range Rover"}
+for i in set15:
+    if i == "Mercedes":
+        print("This is what i am instructed to do.")
+        break
+    print(i)
+
+
+set14.pop()
+print(set14)
+
+set14.pop()
+print(set14)
+
+set14.discard(534)
+# The discard method won't throw an erro if there is not element which we want to remove is not there
+print(set14)
+
+# set14.remove(12)
+# The remove method will throw an error if there is not element which we want to remove is not there
+print(set14)
+
+set14.clear()
+print(set14)
