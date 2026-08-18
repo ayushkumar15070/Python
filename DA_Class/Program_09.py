@@ -63,7 +63,7 @@ print(set6)
 print(set9)
 
 set10 = {1, 2, 3}
-set11 = {4, 5, 6}
+set11 = {4, 5, 6, 23, 1, 1, 0, -1, -23}
 print(set10 - set11)
 
 for i in set10:
@@ -72,6 +72,31 @@ for i in set10:
         print("Yes the number 1 is present in the set10")
         break
 
+minimum = min(set10)
+print(minimum)
 
+maximum = max(set10)
+print(maximum)
+
+
+print(sorted(set11))
+
+set12 = {12, 3, 34, 5}
+set12.add(10)
+
+print(set12)
+
+set12.add(4)
+print(set12)
+
+set13 = {1, 2, 3}
+set14 = {4, 5, 6, 3}
+set13.update(set14)
+print(set13)
+
+print(set13.intersection(set14))
+
+set13.update([2, 3, 4, 5, 5, 34])
+print(set13)
 
 
