@@ -131,11 +131,33 @@ print(set14)
 
 set16 = {12, 23, 34, 45,}
 set17 = {13, 14, 23, 45}
-set18 = set16.union(set17)
-print(set18)
+set18 = {12, 23}
+# set18 = set16.union(set17)
+# print(set18)
 
-set18 = set16.intersection(set17)
-print(set18)
+# set18 = set16.intersection(set17)
+# print(set18)
 
-set16.intersection_update(set17)
-print(set16)
+# set16.intersection_update(set17)
+# print(set16)
+
+# set18 = set16.difference(set17)
+# print(set18)
+
+
+print(set18.issubset(set16))
+print(set16.issuperset(set18))
+print(set16.difference(set18))
+print(set16.difference_update(set18))
+
+
+x = {1, 2, 3, 4, 5}
+y = {3, 4, 6, 7, 8}
+print(x.symmetric_difference(y))
+
+x.symmetric_difference_update(y)
+print(x)
+
+
+
+
