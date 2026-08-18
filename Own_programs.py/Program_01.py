@@ -41,10 +41,3 @@ while True:
     else:
         print("There is something wrong")
 
-howmany = int(input("Enter how many rows you want: "))
-
-i = 0 
-while i <= howmany:
-    print(f"{i * "*"}")
-    i = i + 1
-
