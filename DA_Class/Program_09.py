@@ -124,3 +124,18 @@ print(set14)
 
 set14.clear()
 print(set14)
+
+
+# del set14
+# print(set14)
+
+set16 = {12, 23, 34, 45,}
+set17 = {13, 14, 23, 45}
+set18 = set16.union(set17)
+print(set18)
+
+set18 = set16.intersection(set17)
+print(set18)
+
+set16.intersection_update(set17)
+print(set16)
