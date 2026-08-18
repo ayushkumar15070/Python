@@ -203,7 +203,7 @@ print(sum2)
 print(f"The difference between {sum} and {sum2} is {sum - sum2}")
 
 
-
+# Question_02
 #Duplicate-Free Transaction IDs
 # given:
 # [101, 103, 101, 105, 107, 103, 109, 105, 110]
@@ -220,3 +220,39 @@ for i in IDs:
         list1.append(i)
 
 print(list1)
+
+# Question_03
+# given:
+# [45, 12, 78, 34, 89, 67, 89, 23]
+
+# find the second largest distinct number 
+# challenge Do not use sort(), sorted(), max(), or set()
+
+data = [45, 12, 78, 34, 89, 67, 89, 23]
+list2 = []
+for i in data:
+    if i in list2:
+        pass
+    else:
+        list2.append(i)
+
+
+print(list2)
+
+for i in list2:
+    if i > i + 1:
+        temp = i 
+        (i + 1) = i
+        i = temp
+    list2.append(i)
+
+print(list2)
+    
+
+
+
+# Question_04:
+# given:
+# T = (10, 20, 30, 40, 50, 60)
+# Rotate the tuple to the right by 2 positions
+# Then modify the program to accept the rotation value from the User
