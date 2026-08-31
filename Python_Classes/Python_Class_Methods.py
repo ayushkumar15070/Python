@@ -82,7 +82,6 @@ if removesong.lower() == "yes":
         songwhichyouwanttoremove = input("Enter the song name which you want to remove: ")
         if songwhichyouwanttoremove in myplaylist.songs:
             myplaylist.remove_song(songwhichyouwanttoremove)
-
-
+            
 myplaylist.show_song()
 

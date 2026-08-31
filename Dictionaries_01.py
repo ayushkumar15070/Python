@@ -7,6 +7,7 @@ dict1 = {
 x = dict1["brand"]
 print(x)
 
+print(dict1)
 
 # by using the get method
 
