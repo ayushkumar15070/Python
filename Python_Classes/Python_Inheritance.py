@@ -17,3 +17,4 @@ class Student(Person):
 
 y = Student("Ayush", "Kumar")
 print(y.printname())
+
