@@ -23,3 +23,17 @@ c1 = person("Ayush", 20)
 
 print(c1.name)
 print(c1.get_age())
+
+class Student:
+    def __init__(self, name, classname):
+        self.name = name
+        self.classname = classname
+
+    def getclassname(self):
+        return self.classname
+
+c2 = Student("Ayush", "CS-2C")
+
+print(c2.name)
+print(c2.getclassname())
+
