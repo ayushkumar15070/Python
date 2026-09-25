@@ -1,0 +1,2 @@
+Matplotlib is a low graph plotting library in python that serves as visualization utility.
+
