@@ -1,45 +1,91 @@
-# Python is an object-oriented programming language, allowing you to structure your code using classes and objects for better organization and reusability. 
+class Atm:
+    count = 0
 
-# Advantage of OOPs
-# 1. Provides a clear structure to programs
-# 2. Makes code easier to maintain, reuse, and debug
-# 3. Helps keep your code DRY( Don't Repeat Yourself)
-# 4. Allows you to build reusable applications with less code
+    def __init__(self, count):
+        self.__pin = ""
+        self.__balance = 0
+        self.__count = count
+
+    def get_pin(self):
+        return self.__pin
+
+    def set_pin(self, new):
+        if isinstance(new, str) and new.isdigit() and len(new) == 4:
+            self.__pin = new
+            return True
+        print("Invalid PIN. Use a 4-digit numeric PIN.")
+        return False
+
+    def check_balance(self):
+        return self.__balance
+    def get_count(self):
+        return self.__count
+    def set_count(self, new_count):
+        if type(new_count) == int:
+            Atm.__count = new_count
+        else:
+            print("Not allowed")
+
+    def deposit(self, amount):
+        if amount > 0:
+            self.__balance += amount
+            return True
+        print("Deposit amount must be greater than zero.")
+        return False
+
+    def withdraw(self, amount):
+        if amount <= 0:
+            print("Withdrawal amount must be greater than zero.")
+            return False
+        if amount > self.__balance:
+            print("Insufficient balance.")
+            return False
+        self.__balance -= amount
+        return True
+
+    def menu(self):
+        while True:
+            print("\n1. Check Balance")
+            print("2. Deposit")
+            print("3. Withdraw")
+            print("4. Change PIN")
+            print("5. Exit")
+
+            choice = input("Enter your choice: ")
+
+            if choice == "1":
+                print(f"Your balance is: {self.__balance}")
+            elif choice == "2":
+                try:
+                    amount = float(input("Enter deposit amount: "))
+                    if self.deposit(amount):
+                        print("Deposit successful.")
+                except ValueError:
+                    print("Please enter a valid number.")
+            elif choice == "3":
+                try:
+                    amount = float(input("Enter withdrawal amount: "))
+                    if self.withdraw(amount):
+                        print("Withdrawal successful.")
+                except ValueError:
+                    print("Please enter a valid number.")
+            elif choice == "4":
+                new_pin = input("Enter your new 4-digit PIN: ")
+                if self.set_pin(new_pin):
+                    print("PIN changed successfully.")
+            elif choice == "5":
+                print("Thank you for using the ATM.")
+                break
+            else:
+                print("Invalid choice. Please try again.")
 
 
-# examples of OOPs in Python
+if __name__ == "__main__":
+    atm = Atm()
 
-class Myclass:
-    x = 5
-    y = 10
-    z = 15
+    while True:
+        pin = input("Set your 4-digit PIN: ")
+        if atm.set_pin(pin):
+            break
 
-
-
-p1 = Myclass()
-print(p1.x)
-
-p2 = Myclass()
-print(p2.x)
-print(p2.y)
-print(p2.z)
-
-print(p2.x * p2.y * p2.z)
-
-
-
-class Person:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-
-    def greet(self):
-        print(f"Hello {self.name}, How are you?")
-        print(f"You will be a billionaire by the age of {age + 5 if age == 20 else age + 4}")
-
-
-name = input("Enter your name: ")
-age = int(input("Enter your age: "))
-p1 = Person(name, age)
-
-p1.greet()
+    atm.menu()
