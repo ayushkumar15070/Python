@@ -1,10 +1,7 @@
 class Atm:
-    count = 0
-
-    def __init__(self, count):
+    def __init__(self):
         self.__pin = ""
         self.__balance = 0
-        self.__count = count
 
     def get_pin(self):
         return self.__pin
@@ -89,3 +86,19 @@ if __name__ == "__main__":
             break
 
     atm.menu()
+
+class Customer:
+    def __init__(self, name, gender, age):
+        self.name = name
+        self.gender = gender
+        self.age = age
+
+c1 = Customer("x", "m", 34)
+c2 = Customer("s", "m", 34)
+c3 = Customer("w", "f", 28) 
+
+l = [c1, c2, c3]
+
+for i in l:
+    print(i.name, i.age, i.gender)
+

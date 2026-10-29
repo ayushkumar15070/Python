@@ -1,0 +1,251 @@
+order_id,order_date,product,category,unit_price_inr,quantity,discount_pct,revenue_inr,region,payment_method,sales_channel,customer_rating,returned
+ORD0001,2025-01-01,Tablet,Mobiles,54417,1,0,54417.0,Central,UPI,In-store,1,No
+ORD0002,2025-01-02,Keyboard,Accessories,1354,2,0,2708.0,North,Debit Card,Mobile App,3,No
+ORD0003,2025-01-03,Mouse,Accessories,1995,3,20,4788.0,West,Debit Card,In-store,3,No
+ORD0004,2025-01-04,Tablet,Mobiles,12327,2,10,22188.6,South,Debit Card,Marketplace,2,No
+ORD0005,2025-01-05,Headphones,Accessories,10139,1,15,8618.15,Central,Debit Card,In-store,4,No
+ORD0006,2025-01-06,Mouse,Accessories,1669,1,20,1335.2,East,Cash,In-store,2,No
+ORD0007,2025-01-07,Mouse,Accessories,2259,4,0,9036.0,North,Debit Card,In-store,5,No
+ORD0008,2025-01-08,Tablet,Mobiles,31918,3,0,95754.0,East,Cash,In-store,5,No
+ORD0009,2025-01-09,Smartphone,Mobiles,14049,1,15,11941.65,West,Net Banking,Website,5,No
+ORD0010,2025-01-10,Headphones,Accessories,8200,1,5,7790.0,East,Cash,In-store,4,No
+ORD0011,2025-01-11,Tablet,Mobiles,39299,1,0,39299.0,West,Cash,Mobile App,1,No
+ORD0012,2025-01-12,Headphones,Accessories,898,1,10,808.2,South,Credit Card,Mobile App,5,No
+ORD0013,2025-01-13,Headphones,Accessories,9152,2,0,18304.0,Central,Cash,In-store,4,No
+ORD0014,2025-01-14,Mouse,Accessories,700,1,10,630.0,East,Debit Card,Mobile App,3,No
+ORD0015,2025-01-15,Keyboard,Accessories,3936,1,15,3345.6,East,Debit Card,Mobile App,4,No
+ORD0016,2025-01-16,Headphones,Accessories,7822,1,10,7039.8,West,Net Banking,In-store,3,Yes
+ORD0017,2025-01-17,Monitor,Computers,18312,1,10,16480.8,West,Net Banking,Mobile App,5,No
+ORD0018,2025-01-18,Mouse,Accessories,2068,2,10,3722.4,North,Net Banking,Marketplace,5,No
+ORD0019,2025-01-19,Smartphone,Mobiles,77726,2,10,139906.8,North,Debit Card,In-store,4,No
+ORD0020,2025-01-20,Keyboard,Accessories,1069,1,15,908.65,South,Credit Card,Marketplace,4,No
+ORD0021,2025-01-21,Monitor,Computers,7784,1,0,7784.0,East,Net Banking,Mobile App,5,No
+ORD0022,2025-01-22,Monitor,Computers,17647,2,10,31764.6,South,UPI,In-store,5,No
+ORD0023,2025-01-23,Smartphone,Mobiles,18655,3,15,47570.25,West,Debit Card,Marketplace,1,No
+ORD0024,2025-01-24,Keyboard,Accessories,3274,4,15,11131.6,East,UPI,Mobile App,4,No
+ORD0025,2025-01-25,Mouse,Accessories,2661,1,15,2261.85,North,Cash,Mobile App,5,No
+ORD0026,2025-01-26,Laptop,Computers,47491,2,0,94982.0,Central,Cash,In-store,5,No
+ORD0027,2025-01-27,Keyboard,Accessories,1376,2,15,2339.2,East,Cash,In-store,5,No
+ORD0028,2025-01-28,Smartphone,Mobiles,40251,1,20,32200.8,South,Net Banking,Mobile App,5,No
+ORD0029,2025-01-29,Monitor,Computers,30944,2,10,55699.2,North,Credit Card,Mobile App,3,No
+ORD0030,2025-01-30,Mouse,Accessories,1441,1,10,1296.9,Central,UPI,In-store,4,No
+ORD0031,2025-01-31,Keyboard,Accessories,1080,3,10,2916.0,East,Cash,Mobile App,4,No
+ORD0032,2025-02-01,Laptop,Computers,64128,2,15,109017.6,West,Net Banking,Marketplace,2,No
+ORD0033,2025-02-02,Laptop,Computers,105403,2,10,189725.4,South,Credit Card,In-store,5,No
+ORD0034,2025-02-03,Headphones,Accessories,8221,3,10,22196.7,South,Credit Card,Mobile App,4,Yes
+ORD0035,2025-02-04,Headphones,Accessories,8190,1,0,8190.0,East,Credit Card,In-store,5,No
+ORD0036,2025-02-05,Tablet,Mobiles,14611,4,0,58444.0,North,Cash,In-store,4,No
+ORD0037,2025-02-06,Smartphone,Mobiles,71275,1,5,67711.25,West,UPI,Website,5,No
+ORD0038,2025-02-07,Keyboard,Accessories,4413,1,10,3971.7,Central,Net Banking,In-store,2,Yes
+ORD0039,2025-02-08,Keyboard,Accessories,3046,1,5,2893.7,North,Credit Card,In-store,4,No
+ORD0040,2025-02-09,Tablet,Mobiles,21261,1,5,20197.95,North,Cash,Mobile App,5,No
+ORD0041,2025-02-10,Monitor,Computers,7412,2,0,14824.0,Central,Net Banking,Website,4,No
+ORD0042,2025-02-11,Monitor,Computers,9967,1,0,9967.0,East,Cash,Mobile App,3,No
+ORD0043,2025-02-12,Tablet,Mobiles,33190,3,10,89613.0,West,UPI,Marketplace,5,No
+ORD0044,2025-02-13,Monitor,Computers,28352,3,0,85056.0,North,Cash,In-store,4,No
+ORD0045,2025-02-14,Headphones,Accessories,7986,1,10,7187.4,West,Net Banking,Website,5,No
+ORD0046,2025-02-15,Keyboard,Accessories,2319,3,20,5565.6,West,Debit Card,Mobile App,4,No
+ORD0047,2025-02-16,Tablet,Mobiles,47259,1,10,42533.1,East,Net Banking,In-store,5,No
+ORD0048,2025-02-17,Keyboard,Accessories,1562,2,10,2811.6,South,Credit Card,Marketplace,5,Yes
+ORD0049,2025-02-18,Laptop,Computers,68714,4,10,247370.4,East,Debit Card,Mobile App,5,No
+ORD0050,2025-02-19,Headphones,Accessories,1753,2,0,3506.0,Central,Net Banking,In-store,2,No
+ORD0051,2025-02-20,Mouse,Accessories,2981,1,10,2682.9,Central,Net Banking,Mobile App,5,No
+ORD0052,2025-02-21,Headphones,Accessories,10848,3,10,29289.6,North,UPI,Website,5,No
+ORD0053,2025-02-22,Tablet,Mobiles,29870,1,10,26883.0,West,Debit Card,Mobile App,5,No
+ORD0054,2025-02-23,Mouse,Accessories,472,2,0,944.0,West,Credit Card,In-store,2,No
+ORD0055,2025-02-24,Laptop,Computers,87344,4,0,349376.0,East,Net Banking,In-store,5,No
+ORD0056,2025-02-25,Tablet,Mobiles,38016,1,0,38016.0,Central,Credit Card,In-store,5,No
+ORD0057,2025-02-26,Smartphone,Mobiles,32559,3,10,87909.3,East,Cash,Website,3,No
+ORD0058,2025-02-27,Keyboard,Accessories,4012,1,20,3209.6,North,UPI,Mobile App,3,No
+ORD0059,2025-02-28,Laptop,Computers,89597,3,5,255351.45,North,Debit Card,In-store,5,Yes
+ORD0060,2025-03-01,Keyboard,Accessories,857,2,10,1542.6,Central,Credit Card,In-store,4,No
+ORD0061,2025-03-02,Monitor,Computers,14483,1,10,13034.7,West,Net Banking,Website,3,No
+ORD0062,2025-03-03,Smartphone,Mobiles,50088,1,10,45079.2,West,Net Banking,In-store,3,No
+ORD0063,2025-03-04,Smartphone,Mobiles,57445,1,5,54572.75,Central,UPI,Mobile App,2,No
+ORD0064,2025-03-05,Laptop,Computers,101570,2,10,182826.0,North,UPI,Mobile App,5,No
+ORD0065,2025-03-06,Smartphone,Mobiles,74292,1,20,59433.6,North,Debit Card,Marketplace,4,Yes
+ORD0066,2025-03-07,Mouse,Accessories,2452,1,20,1961.6,North,Net Banking,In-store,2,No
+ORD0067,2025-03-08,Smartphone,Mobiles,72100,4,10,259560.0,East,Net Banking,Marketplace,5,No
+ORD0068,2025-03-09,Keyboard,Accessories,4678,1,10,4210.2,North,UPI,Marketplace,3,No
+ORD0069,2025-03-10,Keyboard,Accessories,2323,1,10,2090.7,South,Credit Card,Mobile App,4,No
+ORD0070,2025-03-11,Tablet,Mobiles,42049,2,0,84098.0,West,Net Banking,Mobile App,5,No
+ORD0071,2025-03-12,Keyboard,Accessories,3314,4,20,10604.8,Central,Net Banking,Mobile App,5,No
+ORD0072,2025-03-13,Tablet,Mobiles,25781,2,0,51562.0,South,Credit Card,Mobile App,4,No
+ORD0073,2025-03-14,Keyboard,Accessories,2517,2,0,5034.0,North,Cash,Mobile App,4,No
+ORD0074,2025-03-15,Mouse,Accessories,2480,2,10,4464.0,South,UPI,Mobile App,5,Yes
+ORD0075,2025-03-16,Tablet,Mobiles,46932,1,15,39892.2,Central,Credit Card,Website,3,No
+ORD0076,2025-03-17,Headphones,Accessories,2706,4,0,10824.0,East,Cash,In-store,5,No
+ORD0077,2025-03-18,Monitor,Computers,25271,1,5,24007.45,Central,Credit Card,Website,3,Yes
+ORD0078,2025-03-19,Laptop,Computers,66508,1,10,59857.2,South,Net Banking,Mobile App,2,No
+ORD0079,2025-03-20,Keyboard,Accessories,1023,1,15,869.55,South,UPI,Mobile App,4,No
+ORD0080,2025-03-21,Smartphone,Mobiles,35321,1,20,28256.8,North,Debit Card,Marketplace,4,Yes
+ORD0081,2025-03-22,Keyboard,Accessories,2555,1,5,2427.25,Central,Cash,Marketplace,4,No
+ORD0082,2025-03-23,Smartphone,Mobiles,20717,1,10,18645.3,South,Net Banking,Mobile App,1,No
+ORD0083,2025-03-24,Monitor,Computers,12126,1,20,9700.8,East,Cash,Website,5,No
+ORD0084,2025-03-25,Monitor,Computers,8906,4,0,35624.0,Central,Cash,Mobile App,4,No
+ORD0085,2025-03-26,Monitor,Computers,13229,1,15,11244.65,West,UPI,Website,4,No
+ORD0086,2025-03-27,Smartphone,Mobiles,19561,1,0,19561.0,Central,Credit Card,Marketplace,4,No
+ORD0087,2025-03-28,Keyboard,Accessories,4507,1,10,4056.3,East,Credit Card,Website,4,No
+ORD0088,2025-03-29,Monitor,Computers,22679,1,5,21545.05,East,Net Banking,Mobile App,4,No
+ORD0089,2025-03-30,Mouse,Accessories,2624,3,15,6691.2,West,Debit Card,Mobile App,3,No
+ORD0090,2025-03-31,Tablet,Mobiles,37446,1,20,29956.8,East,Debit Card,Marketplace,4,No
+ORD0091,2025-04-01,Smartphone,Mobiles,50110,3,0,150330.0,West,Cash,Marketplace,5,No
+ORD0092,2025-04-02,Smartphone,Mobiles,25234,3,0,75702.0,South,Debit Card,In-store,4,No
+ORD0093,2025-04-03,Keyboard,Accessories,1641,2,5,3117.9,West,UPI,In-store,3,No
+ORD0094,2025-04-04,Smartphone,Mobiles,54533,2,15,92706.1,East,Cash,Website,4,Yes
+ORD0095,2025-04-05,Smartphone,Mobiles,71383,1,10,64244.7,South,Cash,Mobile App,4,No
+ORD0096,2025-04-06,Monitor,Computers,15512,4,10,55843.2,North,UPI,Website,4,No
+ORD0097,2025-04-07,Keyboard,Accessories,2538,1,15,2157.3,North,Net Banking,Mobile App,5,No
+ORD0098,2025-04-08,Monitor,Computers,8908,1,0,8908.0,South,Cash,Marketplace,2,No
+ORD0099,2025-04-09,Tablet,Mobiles,53925,2,10,97065.0,East,UPI,Website,3,No
+ORD0100,2025-04-10,Tablet,Mobiles,31204,2,10,56167.2,East,Debit Card,Mobile App,4,No
+ORD0101,2025-04-11,Monitor,Computers,21060,1,0,21060.0,South,Debit Card,Website,4,No
+ORD0102,2025-04-12,Tablet,Mobiles,28574,1,0,28574.0,North,UPI,Marketplace,4,No
+ORD0103,2025-04-13,Keyboard,Accessories,4187,1,20,3349.6,East,Debit Card,Marketplace,5,No
+ORD0104,2025-04-14,Laptop,Computers,101819,4,20,325820.8,Central,UPI,In-store,5,No
+ORD0105,2025-04-15,Monitor,Computers,25588,3,0,76764.0,North,Net Banking,Website,5,No
+ORD0106,2025-04-16,Mouse,Accessories,2543,3,0,7629.0,South,Net Banking,Marketplace,5,No
+ORD0107,2025-04-17,Mouse,Accessories,2232,4,20,7142.4,West,Net Banking,In-store,4,No
+ORD0108,2025-04-18,Smartphone,Mobiles,32103,2,10,57785.4,West,Cash,Website,5,No
+ORD0109,2025-04-19,Tablet,Mobiles,49666,2,10,89398.8,South,Debit Card,Marketplace,4,No
+ORD0110,2025-04-20,Mouse,Accessories,2165,3,15,5520.75,South,Debit Card,In-store,5,No
+ORD0111,2025-04-21,Smartphone,Mobiles,29368,1,20,23494.4,West,Debit Card,In-store,2,No
+ORD0112,2025-04-22,Laptop,Computers,109644,2,20,175430.4,South,UPI,In-store,4,Yes
+ORD0113,2025-04-23,Keyboard,Accessories,4646,2,15,7898.2,North,Debit Card,Marketplace,3,No
+ORD0114,2025-04-24,Keyboard,Accessories,3917,3,10,10575.9,North,UPI,Marketplace,4,No
+ORD0115,2025-04-25,Keyboard,Accessories,3208,4,0,12832.0,Central,UPI,Mobile App,5,Yes
+ORD0116,2025-04-26,Mouse,Accessories,1236,1,20,988.8,West,UPI,Mobile App,5,No
+ORD0117,2025-04-27,Laptop,Computers,105625,1,0,105625.0,East,UPI,In-store,3,No
+ORD0118,2025-04-28,Mouse,Accessories,1502,3,0,4506.0,West,Net Banking,In-store,4,No
+ORD0119,2025-04-29,Tablet,Mobiles,14757,1,10,13281.3,South,Net Banking,Website,3,No
+ORD0120,2025-04-30,Mouse,Accessories,988,2,15,1679.6,West,Net Banking,In-store,4,No
+ORD0121,2025-05-01,Laptop,Computers,105556,3,20,253334.4,East,Debit Card,In-store,5,No
+ORD0122,2025-05-02,Laptop,Computers,104676,1,10,94208.4,Central,Debit Card,Mobile App,3,No
+ORD0123,2025-05-03,Tablet,Mobiles,38865,3,10,104935.5,North,Credit Card,Mobile App,4,No
+ORD0124,2025-05-04,Laptop,Computers,100168,2,20,160268.8,East,Credit Card,Mobile App,5,No
+ORD0125,2025-05-05,Laptop,Computers,106408,4,20,340505.6,West,Credit Card,Marketplace,4,Yes
+ORD0126,2025-05-06,Keyboard,Accessories,3306,1,20,2644.8,East,Net Banking,In-store,2,No
+ORD0127,2025-05-07,Tablet,Mobiles,16722,1,0,16722.0,West,Credit Card,Marketplace,3,No
+ORD0128,2025-05-08,Headphones,Accessories,3338,2,10,6008.4,Central,Net Banking,Mobile App,3,No
+ORD0129,2025-05-09,Headphones,Accessories,6950,1,20,5560.0,North,Net Banking,Marketplace,3,No
+ORD0130,2025-05-10,Laptop,Computers,95460,2,0,190920.0,South,UPI,Marketplace,4,No
+ORD0131,2025-05-11,Headphones,Accessories,2209,1,20,1767.2,West,Cash,Website,4,No
+ORD0132,2025-05-12,Headphones,Accessories,7883,1,10,7094.7,South,Cash,In-store,2,No
+ORD0133,2025-05-13,Laptop,Computers,47106,3,20,113054.4,North,Credit Card,Marketplace,4,No
+ORD0134,2025-05-14,Headphones,Accessories,4833,2,0,9666.0,North,Debit Card,Mobile App,5,No
+ORD0135,2025-05-15,Mouse,Accessories,2957,4,10,10645.2,East,Credit Card,In-store,2,No
+ORD0136,2025-05-16,Smartphone,Mobiles,43653,1,0,43653.0,Central,UPI,Mobile App,5,No
+ORD0137,2025-05-17,Tablet,Mobiles,50809,3,10,137184.3,East,UPI,Marketplace,5,No
+ORD0138,2025-05-18,Smartphone,Mobiles,58828,1,10,52945.2,South,Net Banking,Website,4,No
+ORD0139,2025-05-19,Laptop,Computers,96833,3,0,290499.0,West,Debit Card,Website,2,No
+ORD0140,2025-05-20,Keyboard,Accessories,4624,2,5,8785.6,East,Cash,Website,5,No
+ORD0141,2025-05-21,Tablet,Mobiles,38769,4,20,124060.8,Central,UPI,Mobile App,1,No
+ORD0142,2025-05-22,Laptop,Computers,46762,2,5,88847.8,North,Debit Card,Website,3,No
+ORD0143,2025-05-23,Keyboard,Accessories,2024,1,0,2024.0,North,UPI,Website,5,No
+ORD0144,2025-05-24,Smartphone,Mobiles,25350,1,5,24082.5,South,Net Banking,In-store,5,No
+ORD0145,2025-05-25,Laptop,Computers,68393,2,5,129946.7,Central,Cash,Marketplace,5,No
+ORD0146,2025-05-26,Tablet,Mobiles,59481,1,20,47584.8,North,Cash,Mobile App,5,No
+ORD0147,2025-05-27,Tablet,Mobiles,22254,2,0,44508.0,Central,UPI,Mobile App,4,No
+ORD0148,2025-05-28,Monitor,Computers,27377,1,10,24639.3,South,Credit Card,In-store,5,No
+ORD0149,2025-05-29,Mouse,Accessories,549,4,15,1866.6,Central,UPI,Marketplace,5,No
+ORD0150,2025-05-30,Headphones,Accessories,2300,1,20,1840.0,West,Debit Card,Mobile App,4,No
+ORD0151,2025-05-31,Keyboard,Accessories,1682,1,10,1513.8,West,Net Banking,Mobile App,5,No
+ORD0152,2025-06-01,Monitor,Computers,27662,4,10,99583.2,North,Cash,Website,4,No
+ORD0153,2025-06-02,Headphones,Accessories,9484,1,10,8535.6,South,Debit Card,Mobile App,5,Yes
+ORD0154,2025-06-03,Headphones,Accessories,10796,2,0,21592.0,East,Debit Card,Marketplace,1,Yes
+ORD0155,2025-06-04,Laptop,Computers,96184,2,15,163512.8,Central,Cash,Website,4,No
+ORD0156,2025-06-05,Headphones,Accessories,11416,1,15,9703.6,North,Cash,Website,5,Yes
+ORD0157,2025-06-06,Mouse,Accessories,1465,3,0,4395.0,West,Credit Card,Mobile App,4,No
+ORD0158,2025-06-07,Tablet,Mobiles,34557,4,0,138228.0,North,UPI,In-store,3,No
+ORD0159,2025-06-08,Monitor,Computers,8828,2,10,15890.4,East,Cash,Mobile App,5,No
+ORD0160,2025-06-09,Headphones,Accessories,9002,3,10,24305.4,South,UPI,Marketplace,5,No
+ORD0161,2025-06-10,Laptop,Computers,101979,2,20,163166.4,Central,Debit Card,Website,3,Yes
+ORD0162,2025-06-11,Mouse,Accessories,1124,1,0,1124.0,North,Credit Card,Marketplace,5,No
+ORD0163,2025-06-12,Smartphone,Mobiles,78262,1,0,78262.0,East,Cash,Mobile App,4,No
+ORD0164,2025-06-13,Tablet,Mobiles,28850,1,0,28850.0,North,Debit Card,In-store,4,No
+ORD0165,2025-06-14,Tablet,Mobiles,43660,4,0,174640.0,North,Cash,Mobile App,5,No
+ORD0166,2025-06-15,Monitor,Computers,20239,1,5,19227.05,West,Net Banking,Website,2,No
+ORD0167,2025-06-16,Tablet,Mobiles,38841,1,20,31072.8,North,Net Banking,Marketplace,2,No
+ORD0168,2025-06-17,Headphones,Accessories,1774,3,5,5055.9,Central,Credit Card,Mobile App,2,No
+ORD0169,2025-06-18,Laptop,Computers,48020,2,10,86436.0,Central,UPI,Mobile App,4,No
+ORD0170,2025-06-19,Tablet,Mobiles,12396,1,0,12396.0,East,Credit Card,In-store,4,No
+ORD0171,2025-06-20,Tablet,Mobiles,30695,1,10,27625.5,North,Debit Card,Marketplace,3,No
+ORD0172,2025-06-21,Smartphone,Mobiles,63756,1,10,57380.4,South,Cash,Marketplace,5,No
+ORD0173,2025-06-22,Smartphone,Mobiles,75620,1,10,68058.0,South,UPI,Marketplace,5,Yes
+ORD0174,2025-06-23,Keyboard,Accessories,3219,1,10,2897.1,South,Cash,Mobile App,5,No
+ORD0175,2025-06-24,Mouse,Accessories,594,1,10,534.6,East,UPI,Website,4,No
+ORD0176,2025-06-25,Headphones,Accessories,5343,2,5,10151.7,East,Credit Card,Website,5,No
+ORD0177,2025-06-26,Tablet,Mobiles,43339,4,15,147352.6,Central,Net Banking,Mobile App,5,No
+ORD0178,2025-06-27,Tablet,Mobiles,17491,1,0,17491.0,West,UPI,Mobile App,4,Yes
+ORD0179,2025-06-28,Laptop,Computers,56383,1,0,56383.0,South,Net Banking,In-store,5,No
+ORD0180,2025-06-29,Keyboard,Accessories,2928,2,20,4684.8,Central,Debit Card,Website,4,No
+ORD0181,2025-06-30,Mouse,Accessories,2806,1,20,2244.8,South,Credit Card,Mobile App,4,No
+ORD0182,2025-07-01,Keyboard,Accessories,538,4,20,1721.6,Central,Net Banking,Marketplace,3,No
+ORD0183,2025-07-02,Monitor,Computers,20261,2,15,34443.7,East,Debit Card,Marketplace,5,No
+ORD0184,2025-07-03,Mouse,Accessories,1288,2,20,2060.8,Central,Debit Card,In-store,4,No
+ORD0185,2025-07-04,Tablet,Mobiles,15626,1,0,15626.0,West,Credit Card,Website,3,No
+ORD0186,2025-07-05,Tablet,Mobiles,27175,2,0,54350.0,West,Debit Card,In-store,3,No
+ORD0187,2025-07-06,Mouse,Accessories,819,4,5,3112.2,South,Cash,Marketplace,4,No
+ORD0188,2025-07-07,Tablet,Mobiles,51652,2,0,103304.0,East,Cash,Mobile App,4,Yes
+ORD0189,2025-07-08,Headphones,Accessories,2675,2,0,5350.0,North,Cash,Marketplace,4,No
+ORD0190,2025-07-09,Mouse,Accessories,2733,1,10,2459.7,North,Net Banking,Mobile App,5,No
+ORD0191,2025-07-10,Keyboard,Accessories,4066,4,15,13824.4,East,Net Banking,Website,5,No
+ORD0192,2025-07-11,Mouse,Accessories,1715,1,15,1457.75,East,UPI,Website,2,No
+ORD0193,2025-07-12,Tablet,Mobiles,58590,3,15,149404.5,West,Cash,Website,4,Yes
+ORD0194,2025-07-13,Headphones,Accessories,8832,1,0,8832.0,North,UPI,Website,2,No
+ORD0195,2025-07-14,Headphones,Accessories,8633,3,20,20719.2,South,Credit Card,Mobile App,5,No
+ORD0196,2025-07-15,Monitor,Computers,7105,4,10,25578.0,North,Debit Card,Website,5,Yes
+ORD0197,2025-07-16,Keyboard,Accessories,3644,4,20,11660.8,North,Credit Card,In-store,5,No
+ORD0198,2025-07-17,Smartphone,Mobiles,15389,2,15,26161.3,East,Debit Card,In-store,4,No
+ORD0199,2025-07-18,Smartphone,Mobiles,45662,1,20,36529.6,North,Cash,Mobile App,4,No
+ORD0200,2025-07-19,Mouse,Accessories,2434,2,10,4381.2,North,Net Banking,Marketplace,3,No
+ORD0201,2025-07-20,Monitor,Computers,26811,2,10,48259.8,Central,Debit Card,In-store,4,No
+ORD0202,2025-07-21,Laptop,Computers,45661,2,0,91322.0,East,Debit Card,In-store,3,No
+ORD0203,2025-07-22,Mouse,Accessories,2440,3,20,5856.0,North,Cash,Website,5,No
+ORD0204,2025-07-23,Monitor,Computers,7956,2,10,14320.8,West,Cash,In-store,5,No
+ORD0205,2025-07-24,Keyboard,Accessories,2212,1,0,2212.0,West,Credit Card,Website,4,No
+ORD0206,2025-07-25,Keyboard,Accessories,2882,1,10,2593.8,South,Debit Card,Marketplace,3,No
+ORD0207,2025-07-26,Keyboard,Accessories,4214,2,0,8428.0,Central,UPI,Marketplace,5,No
+ORD0208,2025-07-27,Keyboard,Accessories,3869,2,15,6577.3,South,Net Banking,Website,2,No
+ORD0209,2025-07-28,Keyboard,Accessories,2025,2,10,3645.0,North,Cash,Mobile App,2,No
+ORD0210,2025-07-29,Monitor,Computers,33616,2,0,67232.0,East,Net Banking,Website,4,No
+ORD0211,2025-07-30,Monitor,Computers,19588,4,20,62681.6,East,Credit Card,Marketplace,4,No
+ORD0212,2025-07-31,Headphones,Accessories,6524,1,10,5871.6,North,UPI,Website,3,No
+ORD0213,2025-08-01,Smartphone,Mobiles,47946,2,20,76713.6,Central,Cash,Website,5,No
+ORD0214,2025-08-02,Tablet,Mobiles,24135,2,20,38616.0,West,Debit Card,Website,1,No
+ORD0215,2025-08-03,Keyboard,Accessories,1468,4,10,5284.8,West,Credit Card,Website,4,No
+ORD0216,2025-08-04,Laptop,Computers,55724,2,5,105875.6,Central,UPI,Website,4,No
+ORD0217,2025-08-05,Tablet,Mobiles,51235,2,0,102470.0,East,Debit Card,Mobile App,5,No
+ORD0218,2025-08-06,Monitor,Computers,32784,4,20,104908.8,East,Credit Card,Marketplace,4,No
+ORD0219,2025-08-07,Laptop,Computers,67911,3,10,183359.7,West,Credit Card,Mobile App,5,No
+ORD0220,2025-08-08,Laptop,Computers,87324,1,20,69859.2,Central,Net Banking,Marketplace,3,No
+ORD0221,2025-08-09,Laptop,Computers,92414,4,0,369656.0,East,Credit Card,Mobile App,4,No
+ORD0222,2025-08-10,Headphones,Accessories,4519,4,0,18076.0,West,Debit Card,In-store,5,No
+ORD0223,2025-08-11,Monitor,Computers,10072,1,20,8057.6,Central,Net Banking,Website,2,No
+ORD0224,2025-08-12,Laptop,Computers,82873,3,20,198895.2,North,UPI,Website,5,No
+ORD0225,2025-08-13,Keyboard,Accessories,4328,2,20,6924.8,North,Debit Card,In-store,4,No
+ORD0226,2025-08-14,Mouse,Accessories,1967,3,5,5605.95,South,Credit Card,Website,5,No
+ORD0227,2025-08-15,Laptop,Computers,83218,1,15,70735.3,North,Net Banking,Marketplace,4,No
+ORD0228,2025-08-16,Headphones,Accessories,2990,2,5,5681.0,West,Net Banking,Website,4,No
+ORD0229,2025-08-17,Tablet,Mobiles,41010,2,15,69717.0,South,Debit Card,Marketplace,3,No
+ORD0230,2025-08-18,Monitor,Computers,32537,3,0,97611.0,East,Net Banking,Mobile App,5,No
+ORD0231,2025-08-19,Headphones,Accessories,10939,2,10,19690.2,South,UPI,In-store,3,No
+ORD0232,2025-08-20,Laptop,Computers,72598,2,10,130676.4,East,Credit Card,In-store,5,Yes
+ORD0233,2025-08-21,Monitor,Computers,7406,1,20,5924.8,Central,Cash,Marketplace,3,No
+ORD0234,2025-08-22,Mouse,Accessories,623,2,10,1121.4,East,Credit Card,Mobile App,4,No
+ORD0235,2025-08-23,Laptop,Computers,73211,3,5,208651.35,Central,Cash,Marketplace,4,No
+ORD0236,2025-08-24,Headphones,Accessories,10673,1,0,10673.0,Central,Cash,Mobile App,3,No
+ORD0237,2025-08-25,Smartphone,Mobiles,56139,1,20,44911.2,Central,UPI,Mobile App,3,No
+ORD0238,2025-08-26,Keyboard,Accessories,1975,3,20,4740.0,North,Cash,In-store,4,No
+ORD0239,2025-08-27,Tablet,Mobiles,32668,4,15,111071.2,Central,Cash,Website,5,No
+ORD0240,2025-08-28,Headphones,Accessories,11417,1,10,10275.3,South,UPI,Mobile App,3,No
+ORD0241,2025-08-29,Monitor,Computers,13807,1,10,12426.3,West,Credit Card,Website,2,No
+ORD0242,2025-08-30,Laptop,Computers,48040,4,0,192160.0,Central,UPI,Marketplace,5,No
+ORD0243,2025-08-31,Keyboard,Accessories,1161,2,20,1857.6,East,Cash,Marketplace,4,No
+ORD0244,2025-09-01,Laptop,Computers,72213,2,10,129983.4,North,UPI,Mobile App,3,No
+ORD0245,2025-09-02,Monitor,Computers,33153,3,10,89513.1,North,UPI,Marketplace,5,No
+ORD0246,2025-09-03,Laptop,Computers,105946,2,0,211892.0,South,Net Banking,Mobile App,3,No
+ORD0247,2025-09-04,Smartphone,Mobiles,26210,1,0,26210.0,East,UPI,Marketplace,2,No
+ORD0248,2025-09-05,Keyboard,Accessories,4213,2,10,7583.4,West,Debit Card,In-store,4,No
+ORD0249,2025-09-06,Keyboard,Accessories,2085,1,15,1772.25,West,Net Banking,Mobile App,4,No
+ORD0250,2025-09-07,Monitor,Computers,34350,2,0,68700.0,North,Debit Card,Mobile App,4,No

@@ -21,8 +21,16 @@ name = input("Enter the car name: ")
 model = input("Enter the model name: ")
 year = int(input("Enter the year of the car: "))
 color = input("Enter the color of the car: ")
+brand = input("Enter your brand title: ")
 
-newcar.update({"Brand" : name, "Model": model, "year" : year, "color": color})
+newcar.update(
+   {
+      brand : name, 
+      "Model": model, 
+      "year" : year, 
+      "color": color
+    }
+)
 print(newcar)
 
 

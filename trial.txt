@@ -1,0 +1,20 @@
+Design an object oriented library system for a college
+
+the library contains books, magazines and research papers. Every resources has a unique ID, title and availability status 
+
+Rules a student can borrow at most 3 resources 
+A faculty member can borrow at most 10 resources 
+research papers can be issues only to faculty 
+Books have a 14 day loan period
+Magazines have a 7day loan period
+
+Your system should support 
+Adding resources
+Registering students and faculty 
+issuing a resource
+returning a resource
+displaying resources currently borrowed by a user
+rejecting invalid borrowing requests. 
+
+Do not create one giant class Use inheritance/ poymorphism appropriate
+Think carefully about which object should 
