@@ -32,3 +32,37 @@ print(stud)
 
 ipl = pd.read_csv("Pandas/ipl-matches.csv")
 print(ipl)
+
+print(ipl.dtypes)
+
+print(ipl.isnull().sum())
+print(ipl.info())
+
+print(ipl.describe())
+
+print(ipl.head())
+print(ipl.tail())
+
+
+print(ipl.sample(5))
+print(ipl.sum())
+print(stud.mean())
+
+print(stud.sum(axis=1))
+
+print(type(ipl[['City', 'Team1', 'ID']]))
+
+print(ipl.iloc[0 :20: 2])
+print(ipl['City'] == 'Ahmedabad')
+print(ipl.iloc[0:4, 0:3])
+
+print(ipl['City'] == 'Ahmedabad')
+# Question_01 -> How many time chennai super kings has won the match in Kolkata
+print("Chennai Super Kings matches won in Kolkata")
+
+csk_kolkata = ipl[
+    (ipl['WinningTeam'] == 'Chennai Super Kings') &
+    (ipl['City'] == 'Kolkata')
+]
+
+print(csk_kolkata)
