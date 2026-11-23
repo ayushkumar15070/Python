@@ -67,4 +67,5 @@ print(finalarr8)
 arr17 = np.array([1, 2, 3, 4])
 arr18 = np.array([12, 12, 12, 12])
 
-finalarr9 = np.absolute(arr)
+finalarr9 = np.absolute(arr17)
+print(finalarr9)
