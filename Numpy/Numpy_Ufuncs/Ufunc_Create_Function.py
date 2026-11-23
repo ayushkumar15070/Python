@@ -12,4 +12,3 @@ if type(np.add) == np.ufunc:
     print("Add is ufunc")
 else:
     print("Add is not ufunc")
-    
