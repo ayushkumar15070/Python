@@ -77,13 +77,13 @@ t = turtle.Turtle()
 # t.right(90)
 # t.forward(100)
 
-# i = 0
+i = 0
 
-# while i < 4:
-#     t.pensize(3)
-#     t.forward(100)
-#     t.right(90)
-#     i = i + 1
+while i < 4:
+    t.pensize(3)
+    t.forward(100)
+    t.right(90)
+    i = i + 1
 
 
 t.hideturtle()
