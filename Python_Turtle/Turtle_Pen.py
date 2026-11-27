@@ -57,15 +57,15 @@ t = turtle.Turtle()
 
 # size = int(input("Enter the number of sides which you want to draw: "))
 
-# i = 0
+i = 0
 
-# while i < size:
-#     t.forward(100)
-#     t.left(45)
-#     t.penup()
-#     t.forward(10)
-#     t.pendown()
-#     i = i + 1
+while i < size:
+    t.forward(100)
+    t.left(45)
+    t.penup()
+    t.forward(10)
+    t.pendown()
+    i = i + 1
 
 
 t.pensize(5)
