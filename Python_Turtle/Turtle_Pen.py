@@ -53,7 +53,7 @@ t.penup()
 t.forward(10)
 t.pendown()
 
-shortening the code by using the for loop
+# shortening the code by using the for loop
 
 size = int(input("Enter the number of sides which you want to draw: "))
 
