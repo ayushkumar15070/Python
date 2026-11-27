@@ -1,0 +1,72 @@
+import turtle
+
+# t = turtle.Turtle()
+# t.forward(100)
+# t.backward(34)
+
+
+b = turtle.Turtle()
+# b.speed(1)
+b.forward(100)
+b.left(45)
+b.forward(100)
+b.left(45)
+b.forward(100)
+b.left(45)
+b.forward(100)
+b.left(45)
+b.forward(100)
+b.left(45)
+b.forward(100)
+b.left(45)
+b.forward(100)
+b.left(45)
+b.forward(100)
+b.right(45)
+b.forward(100)
+b.right(45)
+b.forward(100)
+b.right(45)
+b.forward(100)
+b.right(45)
+b.forward(100)
+b.right(45)
+b.forward(100)
+b.right(45)
+b.forward(100)
+b.right(45)
+b.forward(100)
+b.color("blue")
+b.right(135)
+b.forward(8)
+b.right(45)
+b.forward(90)
+b.left(45)
+b.forward(90)
+b.left(45)
+b.forward(90)
+b.left(45)
+b.forward(90)
+b.left(45)
+b.forward(90)
+b.left(45)
+b.forward(90)
+b.left(45)
+b.forward(90)
+b.left(45)
+b.forward(90)
+
+
+
+
+# left = turtle.Turtle()
+
+# left.speed(1)
+# left.forward(100)
+# left.left(45)
+# left.forward(100)
+
+
+
+
+turtle.done()
