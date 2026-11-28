@@ -75,7 +75,4 @@ t.circle(45)
 t.color("blue")
 t.circle(100, 270)
 
-
-
-
 turtle.done()
