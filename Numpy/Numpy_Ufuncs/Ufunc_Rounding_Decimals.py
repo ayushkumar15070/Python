@@ -14,3 +14,7 @@ print(arr4)
 
 arr5 = np.ceil([3.3434, 3.555])
 print(arr5)
+
+arr6 = np.around([3.45544], 1)
+print(arr6)
+
