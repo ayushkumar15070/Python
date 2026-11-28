@@ -67,8 +67,15 @@ polygon(3, 40)
 polygon(8, 90)
 polygon(9, 90)
 
-t.position()
+t.penup()
+t.goto(-100, -100)
+t.pendown()
 t.circle(45)
+
+t.color("blue")
+t.circle(100, 270)
+
+
 
 
 turtle.done()
