@@ -4,7 +4,7 @@ t = turtle.Turtle()
 
 # t.fillcolor("blue") this will only fill the color inside the object
 
-# t.color("red", "blue")
+t.color("red", "blue")
 
 t.color("green")
 t.begin_fill()
@@ -99,7 +99,8 @@ t.begin_fill()
 t.circle(50)
 t.end_fill()
 
-
+t = turtle.Turtle()
+t.dot(50, "red")
 
 turtle.done()
 
